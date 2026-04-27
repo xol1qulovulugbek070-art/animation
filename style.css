@@ -1,0 +1,107 @@
+body {
+    padding: 50px;
+    background-color: white;
+}
+
+.content-circle {
+    width: 120px;
+    height: 120px;
+    background: yellowgreen;
+    position: relative;
+    left: 0;
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes circle {
+
+    0% {
+        top: 0;
+        left: 0;
+        background-color: #ecfdf5;
+    }
+
+    25% {
+        top: 0;
+        left: 500px;
+        background-color: #047857;
+    }
+
+    50% {
+        left: 500px;
+        top: 500px;
+        background-color: aqua;
+    }
+
+    75% {
+        top: 500px;
+        left: 0;
+        background-color: rgb(146, 47, 238);
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+}
+
+.content-sive {
+    width: 120px;
+    height: 120px;
+    background: rgb(30, 45, 0);
+    position: relative;
+    left: 0;
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes circle {
+
+    0% {
+        top: 0;
+        left: 0;
+        background-color: #790707;
+    }
+
+    25% {
+        top: 0;
+        left: 480px;
+        background-color: rgb(49, 0, 99);
+    }
+
+    50% {
+        left: 480px;
+        top: 480px;
+        background-color: rgb(2, 68, 68);
+    }
+
+    75% {
+        top: 480px;
+        left: 0;
+        background-color: rgb(102, 92, 0);
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        background-color: rgb(2, 9, 115);
+    }
+}
+
+.animation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.siv {
+    border: 3px solid black;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
